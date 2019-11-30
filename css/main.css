@@ -159,23 +159,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #mainFooter 
 {
-	margin-top: 40px;
-	margin-bottom: 40px;
 	display: flex;
 	flex-direction: row;
   	justify-content: flex-start;
   	background-color: #303030;
-}
-
-#footerNav 
-{
-	width: 500px;
-}
-
-#copyRight 
-{
-	margin-left: auto;
-	width: 310px;
 }
 
 /*Page 2 - Notice we are using one style sheet for all of the pages*/
@@ -266,6 +253,9 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 /* MY EXTRA CODE */
 
+
+/* ----------- Header ----------- */
+
 #headerLogo {
 	padding-left: 16px;
 }
@@ -274,6 +264,35 @@ a  {
 	color: white;
 }
 
-[target] {
+[target_a] {
 	color: #ff9700;
 }
+
+
+/* ----------- Footer ----------- */
+
+#footerLogo {
+	padding:17px 0px 0px 17px;
+}
+
+#footerNav {
+	font-family: "bahnschrift", bahnschrift, Arial, sans-serif;
+	font-size: 16px;
+	padding:25px 200px 13px 0px;
+}
+
+#socialMediaTop
+{
+	color: #1e1e1e;
+	padding: 18px 0px 0px 0px;
+}
+
+#socialMediaBottom {
+	color: #1e1e1e;
+	padding: 0px 0px 0px 0px;
+}
+
+[target_b] {
+	color: #1e1e1e;
+}
+
