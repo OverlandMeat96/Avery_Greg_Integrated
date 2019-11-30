@@ -83,8 +83,9 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /*This is a flex container*/
 #mainHeader
 {
-	margin-top: 40px;
-	padding-bottom: 40px;
+	margin-top: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	display: flex;
 	flex-direction: row;
   	justify-content: flex-start;
@@ -102,8 +103,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /*We use margin left auto to send it all the way to the right*/
 #mainNav 
 {
+	font-family: "bahnschrift", bahnschrift, Arial, sans-serif;
+	font-size: 23.5px;
 	margin-left: auto;
-	width: 500px;
+	padding:30px 21px 0px 0px;
 }
 
 #promo 
@@ -262,3 +265,15 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 
 /* MY EXTRA CODE */
+
+#headerLogo {
+	padding-left: 16px;
+}
+
+a  {
+	color: white;
+}
+
+[target] {
+	color: #ff9700;
+}
