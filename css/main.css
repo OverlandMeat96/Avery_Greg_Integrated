@@ -9,7 +9,7 @@ p
 	color: #fff;
 	line-height: 100px;
 	background: #000;
-	text-align: center;
+	text-align: left;
 	margin: 0;
 }
 
@@ -36,7 +36,7 @@ body
 	font-family: "bahnschrift", bahnschrift, Arial, sans-serif;
 	font-size: 12px;
 	color: #333;
-	background-color: #5b5b5b;
+	background-color: #4e4e4e;
 }
 
 
@@ -51,7 +51,7 @@ a:link, a:visited
 
 a:hover, a:active 
 { 
-	text-decoration:none; 
+	text-decoration:noe; 
 }
 
 /*hide elements from browser but show for doc outline*/
@@ -101,19 +101,11 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 /*This is also a flex item*/
 /*We use margin left auto to send it all the way to the right*/
-#mainNav 
-{
-	font-family: "bahnschrift", bahnschrift, Arial, sans-serif;
-	font-size: 23.5px;
-	margin-left: auto;
-	padding:30px 21px 0px 0px;
-}
-
 #promo 
 {
-	margin-top: 40px;
+	margin-top: 38px;
 	border-bottom: solid 3px #ff9700;
-	padding-bottom: 40px;
+	padding-bottom: 38px;
 	display: flex;
 	flex-direction: row;
   	justify-content: flex-start;
@@ -122,18 +114,26 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /*Get rid of this, here just to give different height to promo*/
 #promo p 
 {
-	line-height: 250px;
+	height: auto;
+	line-height: 19px;
+	text-align: left;
+	background-color: transparent;
 }
 
 #promoText 
 {
-	width: 600px;
+	width: 366px;
+	font-size: 18px;
+	margin-right: auto;
 }
 
 #promoImage 
 {
 	margin-left: auto;
-	width: 280px;
+	width: 522px;
+	height:293px;
+	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
+
 }
 
 #productInfo 
@@ -149,7 +149,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /*Get rid of this, here just to give different height to productInfo*/
 #productInfo p 
 {
-	line-height: 300px;
+	line-height: 20px;
+	font-size: 16px;
+	text-align: left;
+	background-color: transparent;
 }
 
 .productDesc 
@@ -180,11 +183,13 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #contentCon p 
 {
 	line-height: 630px;
+	background-color: transparent;
 }
 
 #content1 
 {
 	width: 440px;
+	border-right: solid 3px #ff9700;
 }
 
 #content2 
@@ -260,39 +265,100 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-left: 16px;
 }
 
-a  {
-	color: white;
+.mainNav {
+	width: 451;
+	height:24;
+	margin-top: 20px;
+	margin-left: auto;
 }
 
-[target_a] {
-	color: #ff9700;
+.mainNav ul {
+	list-style-type: none;
+	padding: 0px;
 }
 
+.mainNav ul li {
+	font-family: "bahnschrift", bahnschrift, Arial, sans-serif;
+	font-size: 23.5px;
+	display: inline;
+	cursor: pointer;
+}
+
+.mainNav ul li a {
+	color: #fff;
+	padding: 5px;
+}
+
+.selected {
+	background-color: #ff9700;
+}
 
 /* ----------- Footer ----------- */
 
 #footerLogo {
-	padding:17px 0px 0px 17px;
+	padding:17px 0px 20px 17px;
 }
 
-#footerNav {
-	font-family: "bahnschrift", bahnschrift, Arial, sans-serif;
+.footerNav {
+	width: 308px;
+	height: 14px;
+	margin-left: 0px;
+}
+
+.footerNav ul {
+	padding: 0;
+	list-style-type: none;
+	width: 500px;
+}
+
+.footerNav ul li {
+	cursor: pointer;
+	display: inline;
 	font-size: 16px;
-	padding:25px 200px 13px 0px;
+}
+
+.footerNav ul li a {
+	color: #1e1e1e;
+}
+
+.footerNav ul li a:hover {
+	color: #999;
 }
 
 #socialMediaTop
 {
 	color: #1e1e1e;
-	padding: 18px 0px 0px 0px;
+	padding: 18px 10px 5px 490px;
 }
 
 #socialMediaBottom {
 	color: #1e1e1e;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 10px 14px 490px;
 }
 
-[target_b] {
-	color: #1e1e1e;
+/* ------------ Home ------------ */
+
+/* ------- Algonquin Park ------- */
+
+.gallery {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: right;
+	border-bottom: solid 3px #ff9700;
+	padding-bottom: 40px;
 }
 
+h2 {
+  	font-size: 36px;
+  	margin: 0px 0px 0px 0px;
+  	color: #ff9700;
+}
+
+h3 {
+  	font-size: 30px;
+  	margin: 0px 0px 0px 0px;
+ 	color: #ff9700;
+}
+
+/* ----------- Contact ---------- */

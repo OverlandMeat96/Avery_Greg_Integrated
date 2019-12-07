@@ -7,37 +7,57 @@
 </head>
 <body>
 	<div id="siteContainer">
+        <h1 class="hidden"> Algonquin Park </h1>
 
-
-
-        
     	<header id="mainHeader"> <!-- Start mainHeader -->
             <img id="headerLogo" src=assets/header_logo.png alt="Main Logo"> <!-- Logo Img -->
-            <nav id="mainNav"> <!-- Start Main Nav -->
-                    <h2 class="hidden">Main Nav</h2> <!-- Naming Section -->
-                        <a href="index.html"> | HOME </a>
-                        <a href="algonquin.html" target_a=""> | ALGONQUIN PARK | </a>
-                        <a href="contact.html"> CONTACT | </a>
+            <nav class="mainNav"> <!-- Start Main Nav -->
+                <h2 class="hidden">Main Nav</h2> <!-- Naming Section -->
+                <ul>
+                    <li><a href="index.html"> | HOME | </a></li> <!-- Home Button -->
+                    <li class="selected"><a href="#"> ALGONQUIN PARK </a></li> <!-- Algonquin Park Button -->
+                    <li><a href="contact.html"> | CONTACT | </a></li> <!-- Contact Button -->
+                </ul>
             </nav> <!-- End Main Nav -->
-        </header><!--End mainHeader-->
-
-
-
+        </header> <!--End mainHeader-->
 
         <section id="promo">
-        	<div id="promoText"><p>Promo Text</p></div><!--end promoText-->
-        	<div id="promoImage"><p>Promo Image</p></div><!--end promoImage-->
+        	<div id="promoText">
+                <h2>ALGONQUIN PARK</h2>
+                <p>Algonquin provincial park is a 7,653 km2 area of natural forests, lakes , rivers, bogs, and marshes and is located in south eastern Ontario. The park was established in 1893 and is declared the oldest provincial park within Canada. Its origin  began as a logging area before 1893, but then was converted to a provincial park after that year due to increased number of recreational users. This provincial park is now used today as a recreational area as well as a conservation area that holds many research studies about its flora and fauna.</p>
+            </div><!--end promoText-->
+        	<div id="promoImage"><img src="images/algonquin_park/spruce_bog.jpg" alt="Spruce Bog"></div><!--end promoImage-->
         </section><!--end promo-->
 
-
-
-
-        <section id="productInfo">
-        	<section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc1-->
-            <section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc2-->
-            <section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc3-->
-            <section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc4-->
+        <section id="productInfo"> <!--Start productInfo-->
+            <h2 class="hidden">Product Info</h2>
+        	<section class="productDesc"><img src="images/algonquin_park/chipmunk.jpg" alt="Chipmunk Image"><h3>Camping</h3><p>The camping within Algonquin park is very extensive. It includes many different types of camping such as backpack camping and drive in camping.  The drive in camping areas are generally located alongside a lake and offer reserved land areas for the campers. Thebakpack camping is a more intense kind where you must canoe into your site from a lake, but can be more rewarding for some people.</p></section><!--end productDesc1-->
+            <section class="productDesc"><img src="images/algonquin_park/fungus_focus.jpg" alt="Fungus Image"><h3>Nature</h3><p>The nature within  algonquin park varies from many mosses, trees and bushes all the way to interesting fungi. Some of the flowers that can be found in the park are the pink lady’s slipper, yellow flag iris, swamp candles and common jewelweed. The nature within the park is monitored and protected by Ontrio Pakrs and is labelled as a conservation area. </p></section><!--end productDesc2-->
+            <section class="productDesc"><img src="images/algonquin_park/opeongo_outfitters.jpg" alt="Opeongo Outfitters Image"><h3>Recreation</h3><p>Within the park, there are many options for day to day recreations. Some of these activities incluse canoeing, kayaking, These two activities are the most polular and can be the best way to expirience algonquin parks true beauty. Canoes and kayaks can be rented or bought at lots of the polular lakes within the park . </p></section><!--end productDesc3-->
+            <section class="productDesc"><img src="images/algonquin_park/spruce_bog_railing.jpg" alt="Spruce Bog Railing Image"><h3>Trails</h3><p>Hiking trails within algonquin park are easily the most polular part about the park. All along the main highway there are many are signs posted for each trail awailable. These trails are all named and  have their own booklets that feature information and history about the trail as you hike it. Many of these trails offer a different view on the park and can sometimes bring you closer to the wildlife. </p></section><!--end productDesc4-->
         </section><!--end productInfo-->
+
+
+
+
+        <section class="gallery"> <!--Start gallery-->
+            <h2>Gallery</h2>
+        <section class="leftImages"> <!-- Start Top Images -->
+            <h3 class="hidden">Left Column</h3>
+                <img src="images/algonquin_park/cliffside.jpg" alt="Cliffside Image">
+                <img src="images/algonquin_park/river.jpg" alt="River Image">
+        </section>
+        <section class="middleImages"> <!-- Start Bottom Images -->
+            <h3 class="hidden">Middle Column</h3>
+                <img src="images/algonquin_park/forest.jpg" alt="Forest Image">
+                <img src="images/algonquin_park/moss_focus.jpg" alt="Moss Focus Image">
+        </section>
+        <section class="rightImages"> <!-- Start Bottom Images -->
+            <h3 class="hidden">Right Column</h3>
+                <img src="images/algonquin_park/reflections.jpg" alt="Reflection Image">
+                <img src="images/algonquin_park/spruce_bog_rock.jpg" alt="Spruce Bog Rock Image">
+        </section>
+        </section> <!--end gallery-->
 
 
 
@@ -48,26 +68,28 @@
                     <h2 class="hidden">Footer Img</h2> <!-- Naming Section -->
                     <img src=assets/footer_logo.png alt="Main Logo"> <!-- Logo Img -->
                 </section> <!-- End Footer Logo -->
-                <nav id="footerNav"> <!-- Start Footer Nav -->
-                    <a href="index.html" target_b> | HOME | </a>
-                    <a href="algonquin.html" target_b> ALGONQUIN PARK </a>
-                    <a href="contact.html" target_b> | CONTACT | </a>
+                <nav class="footerNav"> <!-- Start Footer Nav -->
+                    <h2 class="hidden"> Footer Nav </h2>
+                    <ul> 
+                        <li><a href="index.html"> | HOME | </a></li> <!-- Home Button -->
+                        <li><a href="#"> ALGONQUIN PARK </a></li> <!-- Algonquin Park Button -->
+                        <li><a href="contact.html"> | CONTACT | </a></li> <!-- Contact Button -->
+                    </ul>
                 </nav> <!-- End Footer Nav -->
             </div> <!-- End Left of Footer -->
             <div> <!-- Start Footer Social Media -->
                 <section id="socialMediaTop"> <!-- Start Footer Social Media Top Row -->
-                    <img src=images/social_media_logos/twitter_logo.png alt="Twitter img"> <!-- Twitter img -->
-                    <img src=images/social_media_logos/instagram_logo.png alt="Instagam img"> <!-- Instagam img -->
+                    <h2 class="hidden">Social Media Top Buttons</h2>
+                        <a href="https://twitter.com/OverlandMeat96"> <img src=images/social_media_logos/twitter_logo.png alt="Twitter img link"></a> <!-- Twitter image and link -->
+                        <a href="https://www.instagram.com/gregory__avery/?hl=en"><img src=images/social_media_logos/instagram_logo.png alt="Instagam img link"></a> <!-- Instagram image and link -->
                 </section> <!-- End Footer Social Media Top Row -->
                 <section id="socialMediaBottom"> <!-- Start Footer Social Media Bottom Row -->
-                    <img src=images/social_media_logos/youtube_logo.png alt="Youtube img"> <!-- Youtube img -->
-                    <img src=images/social_media_logos/facebook_logo.png alt="Facebook img"> <!-- Facebook img -->
+                    <h2 class="hidden">Social Media Bottom Buttons</h2>
+                        <a href="https://www.youtube.com/channel/UCFeAyJq8zQH4s-7I1Lky-RA?view_as=subscriber"><img src=images/social_media_logos/youtube_logo.png alt="Youtube img link"></a> <!-- Youtube image and link -->
+                        <a href="https://www.facebook.com/profile.php?id=100010765808177"><img src=images/social_media_logos/facebook_logo.png alt="Facebook img link"></a> <!-- Facebook image and link -->
                 </section> <!-- End Footer Social Media Top Row -->
             </div> <!-- End Footer Social Media -->
         </footer><!--end mainFooter-->
-
-
-
 
     </div><!--end siteContainer-->
 <script src="js/main.js"></script>    
