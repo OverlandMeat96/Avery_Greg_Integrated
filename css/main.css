@@ -33,10 +33,10 @@ img
 
 body 
 {
-	font-family: "bahnschrift", bahnschrift, Arial, sans-serif;
+	font-family: "bahnschrift", Arial, sans-serif;
 	font-size: 12px;
 	color: #333;
-	background-color: #4e4e4e;
+	background-color: #5b5b5b;
 }
 
 
@@ -101,8 +101,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 /*This is also a flex item*/
 /*We use margin left auto to send it all the way to the right*/
-#promo 
-{
+#promo {
 	margin-top: 38px;
 	border-bottom: solid 3px #ff9700;
 	padding-bottom: 38px;
@@ -112,23 +111,20 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 /*Get rid of this, here just to give different height to promo*/
-#promo p 
-{
+#promo p {
 	height: auto;
 	line-height: 19px;
 	text-align: left;
 	background-color: transparent;
 }
 
-#promoText 
-{
+#promoText {
 	width: 366px;
 	font-size: 18px;
 	margin-right: auto;
 }
 
-#promoImage 
-{
+#promoImage {
 	margin-left: auto;
 	width: 522px;
 	height:293px;
@@ -136,8 +132,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 }
 
-#productInfo 
-{
+#productInfo {
 	margin-top: 40px;
 	display: flex;
 	flex-direction: row;
@@ -147,21 +142,18 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 /*Get rid of this, here just to give different height to productInfo*/
-#productInfo p 
-{
+#productInfo p {
 	line-height: 20px;
 	font-size: 16px;
 	text-align: left;
 	background-color: transparent;
 }
 
-.productDesc 
-{
+.productDesc {
 	width: 200px;
 }
 
-#mainFooter 
-{
+#mainFooter {
 	display: flex;
 	flex-direction: row;
   	justify-content: flex-start;
@@ -180,28 +172,26 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 /*Get rid of this, here just to give different height to promo*/
-#contentCon p 
-{
-	line-height: 630px;
+#contentCon p {
+	font-size: 18px;
+	line-height: 20px;
+	padding-bottom: 0px;
 	background-color: transparent;
 }
 
-#content1 
-{
+#content1 {
 	width: 440px;
 	border-right: solid 3px #ff9700;
 }
 
-#content2 
-{
+#content2 {
 	margin-left: auto;
 	width: 440px;
 }
 
 /*Page 3*/
 
-#productImages 
-{
+#productImages {
 	margin-top: 40px;
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
@@ -211,46 +201,42 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 /*Get rid of this, here just to give different height*/
-#productImages p
-{
+#productImages p{
 	line-height: 250px;
 }
 
-.productImg 
-{
+.productImg {
 	width: 280px;
 }
 
 
-#contentAreaBig
-{
+#contentAreaBig{
 	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
 }
 
 /*Get rid of this, here just to give different height*/
-#contentAreaBig p 
-{
+#contentAreaBig p {
 	line-height: 300px;
 }
 
-#promoImageBig
-{
-	width: 920px;
+#promoImageBig{
+	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
 }
 
 
 /*Page 4*/
 
-.productDescLargeLeft 
-{
-	width: 410px;
+.product1 p {
+	padding: 0px 0px 32px 0px;
+	width: 286px;
+	height: 78px;
 }
 
-.productDescLargeRight 
-{
-	width: 410px;
+.product2 p {
+	padding: 0px 0px 32px 0px;
+	width: 286px;
+	padding-right: 180px;
 }
 
 
@@ -261,86 +247,122 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 /* ----------- Header ----------- */
 
-#headerLogo {
+#headerLogo {  /* Logo */
 	padding-left: 16px;
 }
 
-.mainNav {
+.mainNav {  /* Main Navigation Menu */
 	width: 451;
 	height:24;
 	margin-top: 20px;
 	margin-left: auto;
 }
 
-.mainNav ul {
+.mainNav ul {  /* Changing Nav to a list */
 	list-style-type: none;
 	padding: 0px;
 }
 
-.mainNav ul li {
-	font-family: "bahnschrift", bahnschrift, Arial, sans-serif;
+.mainNav ul li {  /* Nav Font Family and Size  */
+	font-family: "bahnschrift", Arial, sans-serif;
 	font-size: 23.5px;
 	display: inline;
 	cursor: pointer;
 }
 
-.mainNav ul li a {
+.mainNav ul li a {  /* Nav Font Colour  */
 	color: #fff;
 	padding: 5px;
 }
 
-.selected {
-	background-color: #ff9700;
+.selected a:visited {  /* changing color of nav after selected  */
+	color: #ff9700;
+	font-family: "bahnschrift", Arial, sans-serif;
 }
+
 
 /* ----------- Footer ----------- */
 
-#footerLogo {
+#footerLogo {  /* Logo */
 	padding:17px 0px 20px 17px;
 }
 
-.footerNav {
+.footerNav {  /* Navigation Menu */
 	width: 308px;
 	height: 14px;
 	margin-left: 0px;
 }
 
-.footerNav ul {
+.footerNav ul {  /* Nav Box */
 	padding: 0;
 	list-style-type: none;
 	width: 500px;
 }
 
-.footerNav ul li {
+.footerNav ul li {  /* Nav Font Size and Cursor */
 	cursor: pointer;
 	display: inline;
 	font-size: 16px;
 }
 
-.footerNav ul li a {
-	color: #1e1e1e;
+.footerNav ul li a {  /* Nav Color */
+	color: #000;
 }
 
-.footerNav ul li a:hover {
+.footerNav ul li a:hover {  /* Nav Hover Effect */
 	color: #999;
 }
 
-#socialMediaTop
-{
+#socialMediaTop {  /* Top Row Social Media Buttons */
 	color: #1e1e1e;
 	padding: 18px 10px 5px 490px;
 }
 
-#socialMediaBottom {
+#socialMediaBottom {  /* Bottom Row Social Media Buttons */
 	color: #1e1e1e;
 	padding: 0px 10px 14px 490px;
 }
 
+
 /* ------------ Home ------------ */
+
+#productInfo h2 {  /* Product Titles */
+	font-size: 24px;
+	margin: 18px 0px 18px 0px;
+	color: #ff9700;
+}
+
+.moreButton a {  /* "More" Buttons */
+	margin-left:  85px;
+	font-size: 18px;
+	padding: 6px 24px 6px 24px;
+	background-color: #4e4e4e;
+	border: 4px solid #303030;
+	border-radius: 16px;
+	color: #ff9700;
+}
+
+#productInfo img{  /* Shadow On Images */
+	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
+}
 
 /* ------- Algonquin Park ------- */
 
-.gallery {
+#promo h2 {  /* Algonquin Title */
+  	font-size: 36px;
+  	margin: 0px 0px 0px 0px;
+  	color: #ff9700;
+}
+
+.productDesc h3 {  /* Product Titles */
+  	font-size: 30px;
+  	margin: 0px 0px 0px 0px;
+ 	color: #ff9700;
+}
+
+
+
+.gallery {  /* Gallery Box */ 
 	margin-top: 40px;
 	display: flex;
 	flex-direction: row;
@@ -349,16 +371,122 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-bottom: 40px;
 }
 
-h2 {
-  	font-size: 36px;
+
+
+.gallery h2 {  /* Gallery Title */
+	font-size: 36px;
   	margin: 0px 0px 0px 0px;
   	color: #ff9700;
 }
 
-h3 {
-  	font-size: 30px;
-  	margin: 0px 0px 0px 0px;
- 	color: #ff9700;
+.productDesc img  {  /* Shadow On product Images */
+	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
 }
 
+
+
+
+#gridContainer {
+	display: grid;
+	grid-gap: 34px 34px;
+}
+
+
+
+
+.gallery img  {  /* Shadow On Gallery Images */
+	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
+}
+
+
 /* ----------- Contact ---------- */
+
+#contentCon h2 {  /* Titles */
+	font-size: 48px;
+	color: #ff9700;
+	margin: 0px;
+}
+
+#contentCon h3 {  /* "Other" Small Titles */
+	font-size: 24px;
+	color: #fff;
+	margin: 38px 0px 0px 0px;
+}
+
+#content1 p {  /* "Contact Us" Paragraph */
+	font-size: 18px;
+	line-height: 20px;
+	padding-bottom: 38px;
+	background-color: transparent;
+}
+
+#contactForm label {  /* Text Box Titles */
+	font-size: 24px;
+	color: #fff; 
+}
+
+#contactForm input {  /* Text Input Boxes */
+	font-size: 20px;
+	margin-bottom: 44px;
+	padding: 10px;
+	width: 300px;
+	height: 22px;
+	background-color: #4e4e4e;
+	display: block;
+	border: 4px solid #303030;
+	border-radius: 10px;
+	color: #fff;
+}
+
+#contactForm textarea {  /* Message Input Boxes */
+	font-size: 18px;
+	margin-bottom: 26px;
+	padding: 10px;
+	width: 300px;
+	height: 142px;
+	background-color: #4e4e4e;
+	display: block;
+	border: 4px solid #303030;
+	border-radius: 10px;
+	color: #fff;
+}
+
+#contactForm input[type=Submit]{  /* Submit Button */
+	font-size: 18px;
+	margin: 0px 0px 0px 110px;
+	width: 110px;
+	height: 45px;
+	background-color: #4e4e4e;
+	display: row;
+	border: 4px solid #303030;
+	border-radius: 10px;
+	color: #ff9700;
+}
+
+#contactForm input[type=Reset]{  /* Reset Button */
+	font-size: 18px;
+	margin: 25px 0px 0px 110px;
+	width: 110px;
+	height: 45px;
+	background-color: #4e4e4e;
+	display: row;
+	border: 4px solid #303030;
+	border-radius: 10px;
+	color: #ff9700;
+}
+
+#content2 img {  /* Map Image */
+	margin: 10px 0px 5px 90px;
+	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
+}
+
+#content2 a {  /* Social Media Links */
+	color: #fff;
+	font-size: 20px;
+	margin: 0px 0px 10px 63px;
+}
+
+#content2 a:hover {  /* Social Media Links Hover*/
+	color: #999;
+	font-size: 20px;
+}
