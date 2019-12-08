@@ -10,7 +10,6 @@
         <h1 class="hidden"> Contact </h1>
 
 
-        
     	<header id="mainHeader"> <!-- Start mainHeader -->
             <img id="headerLogo" src=assets/header_logo.png alt="Main Logo"> <!-- Logo Img -->
             <nav class="mainNav"> <!-- Start Main Nav -->
@@ -24,14 +23,42 @@
         </header> <!--End mainHeader-->
 
 
-
-
         <section id="contentCon">
-        	<div id="content1"><p>Content Area 1</p></div><!--end content1-->
-        	<div id="content2"><p>Content Area 2</p></div><!--end content2-->
+        	<div id="content1">
+                <h2>Contact Me</h2> <!--Start Contact Us-->
+                <p>Fill out the contact boxes below to send an automated email. All boxes must be filled out in order to send the email correctly.  </p>
+                <form id="contactForm" action="form.php" method="post"> <!--Start Form-->
+                    <label>First Name:</label>
+                    <input type="text" required size="30" placeholder="..."> 
+                    <label>Last Name:</label>
+                    <input type="text" required size="30" placeholder="...">
+                    <label>Email:</label>
+                    <input type="email" required size="30" placeholder="...">
+                    <label>Message:</label>
+                    <textarea id="message" required cols="50" rows="8" placeholder="..."></textarea>
+                    <input type="Submit" value="Submit">
+                    <input type="Reset" value="Reset">  
+                </form> <!--End Form-->
+            </div><!--End Contact Us-->
+
+            
+            <div id="content2"> <!--Start Other-->
+                <h2>Other</h2>
+                <p>If you would like to contact me another way follow any of these examples below and chose your preferred way.</p>
+                <h3>Address :</h3>
+                <img src="images/contact/map.png" alt="Map Image">
+                <a href="https://www.google.com/maps/place/130+Dundas+St,+London,+ON+N6A+1G2/@42.9835942,-81.2532546,17z/data=!3m1!4b1!4m5!3m4!1s0x882ef21d6f008d79:0xa4887a476f953f44!8m2!3d42.9835942!4d-81.2510659">130 Dundas St, London, ON N6A 1G2</a>
+                <h3>Phone Number : 519-403-4587</h3>    
+                <h3>Twitter : </h3>
+                    <a href="https://twitter.com/OverlandMeat96">@OverlandMeat96</a>
+                <h3>Instagram : </h3>
+                    <a href="https://www.instagram.com/gregory__avery/?hl=en">gregory__avery</a>
+                <h3>Youtube : </h3>
+                    <a href="https://www.youtube.com/channel/UCFeAyJq8zQH4s-7I1Lky-RA?view_as=subscriber">Gregory Avery</a>
+                <h3>Facebook :</h3>
+                    <a href="https://www.facebook.com/profile.php?id=100010765808177">Gregory Avery</a>
+            </div><!--End Other-->
         </section><!--end contentCon-->
-
-
 
 
         <footer id="mainFooter"> <!-- Start Main Footer -->
@@ -62,8 +89,6 @@
                 </section> <!-- End Footer Social Media Top Row -->
             </div> <!-- End Footer Social Media -->
         </footer><!--end mainFooter-->
-
-
 
 
     </div><!--end siteContainer-->
