@@ -193,7 +193,6 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #productImages {
 	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
@@ -236,8 +235,17 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 .product2 p {
 	padding: 0px 0px 32px 0px;
 	width: 286px;
+	height: 78px;
 	padding-right: 180px;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -265,7 +273,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 .mainNav ul li {  /* Nav Font Family and Size  */
 	font-family: "bahnschrift", Arial, sans-serif;
-	font-size: 23.5px;
+	font-size: 22px;
 	display: inline;
 	cursor: pointer;
 }
@@ -288,7 +296,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 .footerNav {  /* Navigation Menu */
-	width: 308px;
+	width: 450px;
 	height: 14px;
 	margin-left: 0px;
 }
@@ -315,16 +323,20 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #socialMediaTop {  /* Top Row Social Media Buttons */
 	color: #1e1e1e;
-	padding: 18px 10px 5px 490px;
+	padding: 18px 10px 5px 330px;
 }
 
 #socialMediaBottom {  /* Bottom Row Social Media Buttons */
 	color: #1e1e1e;
-	padding: 0px 10px 14px 490px;
+	padding: 0px 10px 14px 330px;
 }
 
 
 /* ------------ Home ------------ */
+
+.productImg2 {
+	margin: 60px 0px 0px 0px;
+}
 
 #productInfo h2 {  /* Product Titles */
 	font-size: 24px;
