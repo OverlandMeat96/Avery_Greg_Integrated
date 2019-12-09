@@ -101,7 +101,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 /*This is also a flex item*/
 /*We use margin left auto to send it all the way to the right*/
-#promo {
+.promo {
 	margin-top: 38px;
 	border-bottom: solid 3px #ff9700;
 	padding-bottom: 38px;
@@ -111,15 +111,15 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 /*Get rid of this, here just to give different height to promo*/
-#promo p {
+.promo p {
 	height: auto;
 	line-height: 19px;
 	text-align: left;
 	background-color: transparent;
 }
 
-#promoText {
-	width: 366px;
+.promoText p {
+	width: 350px;
 	font-size: 18px;
 	margin-right: auto;
 }
@@ -220,6 +220,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 #promoImageBig{
+	height: 290px;
 	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
 }
 
@@ -358,12 +359,13 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
 }
 
-/* ------- Algonquin Park ------- */
+/* ------- Algonquin Park / London, England ------- */
 
-#promo h2 {  /* Algonquin Title */
+.promo h2 {  /* Title */
   	font-size: 36px;
   	margin: 0px 0px 0px 0px;
   	color: #ff9700;
+  	background-color: transparent;
 }
 
 .productDesc h3 {  /* Product Titles */
@@ -375,15 +377,13 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 
 .gallery {  /* Gallery Box */ 
-	margin-top: 40px;
+	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
   	justify-content: right;
 	border-bottom: solid 3px #ff9700;
 	padding-bottom: 40px;
 }
-
-
 
 .gallery h2 {  /* Gallery Title */
 	font-size: 36px;
@@ -395,18 +395,13 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
 }
 
-
-
-
-#gridContainer {
-	display: grid;
-	grid-gap: 34px 34px;
+.topRow img  {  /* Shadow On Gallery Images */
+	margin: 60px 20px 0px 0px;
+	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
 }
 
-
-
-
-.gallery img  {  /* Shadow On Gallery Images */
+.bottomRow img  {  /* Shadow On Gallery Images */
+	margin: 20px 20px 0px 0px;
 	box-shadow: 0px 0px 10px 6px rgba(63,63,63,1);
 }
 
@@ -495,7 +490,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #content2 a {  /* Social Media Links */
 	color: #fff;
 	font-size: 20px;
-	margin: 0px 0px 10px 63px;
+	margin: 0px 0px 10px 65px;
 }
 
 #content2 a:hover {  /* Social Media Links Hover*/
